@@ -1,12 +1,15 @@
-import { useState } from 'react'
 import Banner from './sections/Banner'
+import Form from './sections/Form'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
+    <div className='text-white'>
       <Banner/>
+      <Form/>
+    </div>
+
     </>
   )
 }
