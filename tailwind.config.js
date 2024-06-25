@@ -7,15 +7,14 @@ export default {
   theme: {
     extend: {
       'blue': '#245cbc',
-      'black': '#FFFFFF',
-    fontFamily: {
+      fontFamily: {
         'sans': ['Lato', 'sans-serif'],
+      },
+      fontSize: {
+        '24px': '24px',
       },
       width: {
         '1216px': '1216px', // Largura personalizada
-      },
-      height: {
-        '401px': '401px', // Altura personalizada
       },
     },
   },

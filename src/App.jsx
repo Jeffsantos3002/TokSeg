@@ -7,11 +7,8 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-  <Container>
-    <div className=''>
-      <span className="text-2xl font-bold  text-white mb-4 ">Funcionalidades que se adaptam à rotina do morador</span>
-      </div>
-    </Container>
+  <Container/>
+
   )
 }
 
