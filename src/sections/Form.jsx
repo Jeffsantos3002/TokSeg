@@ -140,12 +140,12 @@ export default function Form() {
   };
   return (
 
-    <div className="w-full bg-pretoTokSeg flex justify-center items-center py-12">
+    <div className="w-full bg-pretoTokSeg flex justify-center items-center py-12" id="form">
       <form className="flex flex-col items-center lg:flex-row w-full max-w-[1256px] px-10"
         ref={form}
       >
         <div className="space-y-12 flex flex-col lg:items-start items-center lg:w-1/2">
-          <h1 className="text-5xl text-white font-bold text-verdeFosco">Monitoramento</h1>
+          <h1 className="text-5xl text-center font-bold text-verdeFosco">Monte do seu jeito</h1>
           <p className="text-3xl lg:text-start text-center">Portaria TokSeg é o que seu empreendimento precisa: nem mais, nem menos do que o necessário.</p>
           <div className="w-4/5 space-y-2  divide-y">
             <div className="flex flex-row justify-center items-center py-2 ">
