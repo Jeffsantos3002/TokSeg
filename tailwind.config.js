@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {},
     colors:{
-      'verdeTokSeg': '#00a96e',
+      'verdeTokSeg': '#009e47',
       'pretoTokSeg': '#343132',
       'pretoHover': '#616161',
       'verdeFosco': "#afd8ae",
