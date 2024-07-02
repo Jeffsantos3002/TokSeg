@@ -140,7 +140,7 @@ export default function Form() {
   };
   return (
 
-    <div className="w-full bg-pretoTokSeg flex justify-center items-center py-12" id="form">
+    <div className="w-full bg-dark flex justify-center items-center py-12" id="form">
       <form className="flex flex-col items-center lg:flex-row w-full max-w-[1256px] px-10"
         ref={form}
       >
