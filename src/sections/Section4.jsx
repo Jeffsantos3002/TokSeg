@@ -1,6 +1,5 @@
 import icone from '../assets/icons/icone.png'
 import icone2 from '../assets/icons/icone2.png'
-import icone3 from '../assets/icons/icone3.png'
 import ideia from '../assets/icons/ideia.svg'
 import chave from '../assets/icons/chave.svg'
 import gestao from '../assets/icons/gestao.svg'
