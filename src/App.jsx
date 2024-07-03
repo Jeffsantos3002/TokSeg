@@ -1,5 +1,7 @@
 import Banner from './sections/Banner'
 import Form from './sections/Form'
+import Footer from './sections/footer'
+
 
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
@@ -12,11 +14,13 @@ function App() {
     <>
     <div className='text-white'>
       <Banner/>
+      <Container/>
       <Form/>
+      <Footer/>
     </div>
 
     </>
-  <Container/>
+
 
   )
 }
