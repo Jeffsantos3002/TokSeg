@@ -5,7 +5,7 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    
     colors:{
       'verdeTokSeg': '#00935f',
       'pretoTokSeg': '#343132',
@@ -13,6 +13,18 @@ export default {
       'verdeFosco': "#afd8ae",
       'button': '#333333',
       'white': '#ffffff',
+    },
+    extend: {
+      fontFamily: {
+        'sans': ['Lato', 'sans-serif'],
+      },
+      fontSize: {
+        '24px': '24px',
+      },
+      width: {
+        '1216px': '1216px', // Largura personalizada
+      },
+    },
       'dark': '#1d232a'
     }
   },
@@ -21,4 +33,3 @@ export default {
   ],
   important: true,
 }
-
