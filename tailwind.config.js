@@ -14,22 +14,23 @@ export default {
       'button': '#333333',
       'white': '#ffffff',
     },
-    extend: {
-      fontFamily: {
-        'sans': ['Lato', 'sans-serif'],
-      },
-      fontSize: {
-        '24px': '24px',
-      },
-      width: {
-        '1216px': '1216px', // Largura personalizada
-      },
-    },
-      'dark': '#1d232a'
-    }
   },
+  extend: {
+    fontFamily: {
+      'sans': ['Lato', 'sans-serif'],
+    },
+    fontSize: {
+      '24px': '24px',
+    },
+    width: {
+      '1216px': '1216px', // Largura personalizada
+    },
+  },
+    'dark': '#1d232a',
+
+
   plugins: [
     require('daisyui'),
   ],
   important: true,
-}
+};

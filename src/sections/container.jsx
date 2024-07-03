@@ -6,7 +6,7 @@ import icone3 from '../assets/icones/icone3.png';
 
 const Container = () => {
   return (
-  <div className="block bg-red-500 border-none mx-auto mb-0 rounded-none w-full  relative">
+  <div className="block bg-pretoTokSeg border-none mx-auto mb-0 rounded-none w-full  relative">
     <div className="flex flex-col justify-center items-center h-full px-4 py-24">
       <div className="flex justify-between lg:flex-row flex-col items-center w-full">
         <div className="flex flex-col items-center">
