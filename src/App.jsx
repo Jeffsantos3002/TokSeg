@@ -1,11 +1,11 @@
 import Banner from './sections/Banner'
 import Form from './sections/Form'
-import Container from './sections/Container'
+import Section2 from './sections/Section2'
 import Section3 from './sections/Section3'
 import Section4 from './sections/Section4'
 import Section6 from './sections/Section6'
 import Cookie from './sections/Cookie'
-import Footer from './sections/Footer';
+import Footer from './sections/Footer'
 
 function App() {
 
@@ -13,7 +13,7 @@ function App() {
     <>
     <div className='text-white'>
       <Banner/>
-      <Container/>
+      <Section2/>
       <Section3/>
       <Section4/>
       <Form/>
@@ -22,7 +22,6 @@ function App() {
       <Footer/>
     </div>
     </>
-
 
   )
 }
