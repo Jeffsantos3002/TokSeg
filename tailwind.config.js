@@ -5,7 +5,7 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    
     colors:{
       'verdeTokSeg': '#00935f',
       'pretoTokSeg': '#343132',
@@ -13,12 +13,24 @@ export default {
       'verdeFosco': "#afd8ae",
       'button': '#333333',
       'white': '#ffffff',
-      'dark': '#1d232a'
-    }
+      'dark': '#191e24',
+      'dark2': '#1d232a'
+    },
   },
+  extend: {
+    fontFamily: {
+      'sans': ['Lato', 'sans-serif'],
+    },
+    fontSize: {
+      '24px': '24px',
+    },
+    width: {
+      '1216px': '1216px', // Largura personalizada
+    },
+  },
+
   plugins: [
     require('daisyui'),
   ],
   important: true,
 }
-
