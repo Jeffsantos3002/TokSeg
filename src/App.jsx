@@ -6,6 +6,7 @@ import Section4 from './sections/Section4'
 import Section6 from './sections/Section6'
 import Cookie from './sections/Cookie'
 import Footer from './sections/Footer'
+import Section7 from './sections/Section7'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       <Section4/>
       <Form/>
       <Section6/>
+      <Section7/>
       <Cookie/>
       <Footer/>
     </div>
