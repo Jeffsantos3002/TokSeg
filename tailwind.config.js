@@ -12,11 +12,11 @@ export default {
       'verdeFosco': "#afd8ae",
       'button': '#333333',
       'white': '#ffffff',
+      'dark': '#191e24',
+      'dark2': '#1d232a',
     },
   },
   extend: {},
-  'dark': '#191e24',
-  'dark2': '#1d232a',
   plugins: [
     require('daisyui'),
   ],
