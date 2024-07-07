@@ -1,18 +1,17 @@
-/** @type {import('tailwindcss').Config} */
 export default {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    
-    colors:{
+    colors: {
       'verdeTokSeg': '#00935f',
       'pretoTokSeg': '#343132',
       'pretoHover': '#616161',
       'verdeFosco': "#afd8ae",
       'button': '#333333',
       'white': '#ffffff',
+      'dark': '#1d232a',
     },
     extend: {
       fontFamily: {
@@ -25,11 +24,9 @@ export default {
         '1216px': '1216px', // Largura personalizada
       },
     },
-      'dark': '#1d232a'
-    }
   },
   plugins: [
     require('daisyui'),
   ],
   important: true,
-}
+};

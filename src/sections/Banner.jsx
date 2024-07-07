@@ -15,7 +15,7 @@ export default function Banner (){
         </div>
         <img src={banner} alt='image-banner' title='image-banner' className='w-full max-w-[484px]'/>
         <div className='w-full flex lg:hidden justify-center'>
-          <button className='btn btn-success rounded-full border-none  text-white w-full max-w-[356px]'><a href="#form" className='scroll-smooth'>Orçamento sem compromisso</a></button>
+          <button className='btn btn-success rounded-full border-none  text-white w-full max-w-[356px]'><a href="#form" className="scroll-smooth">Orçamento sem compromisso</a></button>
         </div>
       </div>
      
