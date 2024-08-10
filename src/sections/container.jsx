@@ -1,41 +1,41 @@
 import React from 'react';
-import icone from '../assets/icones/icone.png';
-import icone2 from '../assets/icones/icone2.png';
-import icone3 from '../assets/icones/icone3.png';
+import icone1 from '../assets/icones-container/icone1.png';
+import icone2 from '../assets/icones-container/icone2.png';
+import icone3 from '../assets/icones-container/icone3.png';
 
 
 const Container = () => {
   return (
-  <div className="block bg-pretoTokSeg border-none mx-auto mb-0 rounded-none w-full  relative">
-    <div className="flex flex-col justify-center items-center h-full px-4 py-24">
-      <div className="flex justify-between lg:flex-row flex-col items-center w-full">
-        <div className="flex flex-col items-center">
-          <div className='flex flex-col justify-center items-center h-48 w-28'>
-            <img src={icone} alt="Ícone 1" className="mb-4" />
+    <div className="block bg-verdeTokSeg border-none mx-auto mb-0 rounded-none w-full  relative">
+      <div className="flex flex-col justify-center items-center h-full px-4 py-24">
+        <div className="flex justify-between lg:flex-row flex-col items-center w-full">
+          <div className="flex flex-col items-center text-center">
+            <div className='flex justify-center items-center h-32 w-32 mb-4'>
+              <img src={icone1} alt="Ícone 1" className="h-full w-full object-contain" />
+            </div>
+            <span className="text-white font-lato font-medium text-[20px]">
+              Disponibiliza a visualização das câmeras em tempo real via app, defina os canais liberados por grupos de perfis.
+            </span>
           </div>
-          <span className="text-white font-lato font-medium text-[24px] text-center">
-            Funcionalidades que se adaptam à rotina do morador
-          </span>
-        </div>
-        <div className="flex flex-col items-center">
-        <div className='flex flex-col justify-center items-center h-48 w-28'>
-          <img src={icone2} alt="Ícone 2" className="mb-4" />
-        </div>
-          <span className="text-white font-lato font-medium text-[24px] text-center">
-            Autonomia para liberar acesso via videochamada
-          </span>
-        </div>
-        <div className="flex flex-col items-center">
-         <div className='flex flex-col justify-center items-center h-48 w-28'>
-          <img src={icone3} alt="Ícone 3" className="mb-4" />
+          <div className="flex flex-col items-center text-center">
+            <div className='flex justify-center items-center h-32 w-32 mb-4'>
+              <img src={icone2} alt="Ícone 2" className="mb-4" />
+            </div>
+            <span className="text-white font-lato font-medium text-[20px] text-center">
+              O convite facial via Whatsapp agiliza o acesso seguro sem contato, reforçando a segurança com reconhecimento facial.
+            </span>
           </div>
-          <span className="text-white font-lato font-medium text-[24px] text-center">
-            Tecnologia própria e reconhecimento facial
-          </span>
+          <div className="flex flex-col items-center text-center">
+            <div className='flex justify-center items-center h-32 w-32 mb-4'>
+              <img src={icone3} alt="Ícone 3" className="mb-4" />
+            </div>
+            <span className="text-white font-lato font-medium text-[20px] text-center">
+              Receba notificações PUSH em tempo real em seu celular, da entrada e da saída de pessoas e veículos do local.
+            </span>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-);
+  );
 };
-    export default Container;
+export default Container;
