@@ -12,43 +12,43 @@ import ico8 from '../assets/diferencial/ico8.png';
 
 const Diferencial = () => {
     return (
-                <section className="bg-gray-100 py-12">
+                <section className="bg-verdeTokSeg py-12">
                     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                         <div className="text-center mb-8">
-                            <p className="text-2xl md:text-4xl font-bold mb-24 text-center">Portaria Porter é muito mais do que uma empresa de tecnologia, para condomínios.</p>
+                            <p className="text-2xl md:text-4xl font-bold mb-24 text-center text-gray-800">Portaria Tokseg é muito mais do que uma empresa de tecnologia, para condomínios.</p>
                         </div>
                         <div className="grid grid-cols-2 gap-8 md:grid-cols-4">
                             <div className="flex flex-col items-center mb-16">
-                                <img src={ico1} alt="Ícone 1" className="w-18 h-18 mb-2" />
-                                <p className=" text-lg text-center text-gray-800">A Porter constrói a solução e escuta o cliente </p>
+                                <img src={ico1} alt="Ícone 1" className="w-32 h-auto mb-2" />
+                                <p className=" text-lg text-center text-gray-800">Moldamos nossas soluções para atender as demandas do seu condominio.</p>
                             </div>
                             <div className="flex flex-col items-center">
-                                <img src={ico2} alt="Ícone 2" className="w-18 h-18 mb-2" />
-                                <p className="text-lg text-center text-gray-800">Tem tecnologia integrada</p>
+                                <img src={ico2} alt="Ícone 2" className="w-32 h-auto mb-2" />
+                                <p className="text-lg text-center text-gray-800">Temos soluções tecnológicas para cada demanda.</p>
                             </div>
                             <div className="flex flex-col items-center">
-                                <img src={ico3} alt="Ícone 3" className="w-18 h-18 mb-2" />
-                                <p className=" text-lg text-center text-gray-800">Fornecedores homologados</p>
+                                <img src={ico3} alt="Ícone 3" className="w-32 h-auto mb-2" />
+                                <p className=" text-lg text-center text-gray-800">Contamos com fornecedores homologados.</p>
                             </div>
                             <div className="flex flex-col items-center">
-                                <img src={ico4} alt="Ícone 4" className="w-18 h-18 mb-2" />
-                                <p className=" text-lg text-center text-gray-800">É pioneiro em portaria remota</p>
+                                <img src={ico4} alt="Ícone 4" className="w-32 h-auto mb-2" />
+                                <p className=" text-lg text-center text-gray-800">Referencia em portaria remota e segurança condominial.</p>
                             </div>
                             <div className="flex flex-col items-center">
-                                <img src={ico5} alt="Ícone 5" className="w-18 h-18 mb-2" />
-                                <p className="text-lg text-center text-gray-800">Está sempre em desenvolvimento e gosta de inovar</p>
+                                <img src={ico5} alt="Ícone 5" className="w-32 h-auto mb-2" />
+                                <p className="text-lg text-center text-gray-800">Estamos em constante evolução para atender melhor novas necessidades.</p>
                             </div>
                             <div className="flex flex-col items-center">
-                                <img src={ico6} alt="Ícone 6" className="w-18 h-18 mb-2" />
-                                <p className="text-lg text-center text-gray-800">Investe na educação do síndico e no crescimento dos condomínios</p>
+                                <img src={ico6} alt="Ícone 6" className="w-32 h-auto mb-2" />
+                                <p className="text-lg text-center text-gray-800">Fornecemos treinamento personalizado para os gestores, sindicos e porteiros.</p>
                             </div>
                             <div className="flex flex-col items-center">
-                                <img src={ico7} alt="Ícone 7" className="w-18 h-18 mb-2" />
-                                <p className="text-lg text-center text-gray-800">Possui o maior evento do mercado condominial do País</p>
+                                <img src={ico7} alt="Ícone 7" className="w-32 h-auto mb-2" />
+                                <p className="text-lg text-center text-gray-800">Ao escolher a solução Tokseg, você garante economia significativa e otimização dos recursos do seu condomínio.</p>
                             </div>
                             <div className="flex flex-col items-center">
-                                <img src={ico8} alt="Ícone 8" className="w-18 h-18 mb-2" />
-                                <p className="text-lg text-center text-gray-800">Tem a maior base de atendimento da américa Latina</p>
+                                <img src={ico8} alt="Ícone 8" className="w-32 h-auto mb-2" />
+                                <p className="text-lg text-center text-gray-800">Oferecemos suporte físico e remoto para o seu condominio.</p>
                             </div>
                         </div>
                         <div className="flex justify-center">
