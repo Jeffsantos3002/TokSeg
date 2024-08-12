@@ -40,7 +40,7 @@ const Entregas = () => {
           </div>
 
           <div className="md:w-1/2 relative">
-            <img src={entrega} alt="Imagem de entrega" className="w-120 ml-36 mb-24" />
+            <img src={entrega} alt="Imagem de entrega" className="w-96 ml-48 mb-20" />
           </div>
         </div>
       </div>
