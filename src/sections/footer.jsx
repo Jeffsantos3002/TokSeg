@@ -12,23 +12,23 @@ const Footer = () => {
             <h2 className="font-semibold mb-2">Canais de Atendimento</h2>
             <div className="mb-2 flex items-center">
               <FaPhoneAlt className="mr-2" />
-              <span>14 2109-3633</span>
+              <span>79 999609197</span>
             </div>
             <div className="mb-2 flex items-center">
               <FaPhoneAlt className="mr-2" />
-              <span>14 2109-3633</span>
+              <span>79 32512318</span>
             </div>
             <div className="mb-2 flex items-center">
               <FaEnvelope className="mr-2" />
-              <span>suporte@condfy.com.br</span>
+              <span>suportetokseg@gmail.com</span>
             </div>
             <div className="mb-2 flex items-center">
               <span className="mr-2">CNPJ:</span>
-              <span>32.849.537/0001-17</span>
+              <span>46564.393.0001/67</span>
             </div>
             <div className="mb-2 flex items-center">
               <FaMapMarkerAlt className="mr-2" />
-              <span>Rua José Antônio Braga 3-82, 17018-540 - Vila Aviação, Bauru - SP</span>
+              <span>Rua zoroastro Rodrigues  Santos 125 - Orlando Dantas, Aracaju - SE</span>
             </div>
           </div>
           <div className="flex flex-col md:w-1/4 md:ml-auto mt-4 md:mt-0">
@@ -37,10 +37,7 @@ const Footer = () => {
               <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400">
                 <FaFacebookF />
               </a>
-              <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400">
-                <FaTwitter />
-              </a>
-              <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400">
+              <a href="https://www.instagram.com/toksegoficial?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400">
                 <FaInstagram />
               </a>
               <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400">
