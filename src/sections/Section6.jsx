@@ -20,8 +20,8 @@ export default function Section6 () {
         </div>
         <div className='flex flex-col items-center text-center lg:text-start space-y-8 max-w-[322px] w-full'>
           <h1 className='text-4xl	font-semibold mt-8 lg:mt-0'>Convite Facial Temporario</h1>
-          <img className='w-60' src={videoChamada} alt="monitaramento" title='videoChamada' />
-          <h2 className='text-2xl	font-semibold'>Liberdade para convidar via facial.</h2>
+          <img className='w-[240px]' src={videoChamada} alt="monitaramento" title='videoChamada' />
+          <h2 className='text-2xl	font-semibold text-center'>Liberdade para convidar via facial.</h2>
           <p>Envie um convite facial via whatsapp para o seu convidado para o mesmo acessar sua unidade autenticando-se no leitor.</p>
         </div>
       </div>

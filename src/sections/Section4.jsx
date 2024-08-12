@@ -2,10 +2,10 @@ import icone from '../assets/icons/icone.png'
 import ideia from '../assets/icons/ideia.svg'
 import chave from '../assets/icons/chave.svg'
 import gestao from '../assets/icons/gestao.svg'
-import app from '../assets/icons/app.png';
-import acesso from '../assets/icons/acesso.png';
-import entrega from '../assets/icons/entrega.png';
-import convite from '../assets/icons/convite.png';
+import app from '../assets/icons/app.svg';
+import acesso from '../assets/icons/acesso.svg';
+import entrega from '../assets/icons/entrega.svg';
+import convite from '../assets/icons/convite.svg';
 import icone2 from '../assets/icones-container/icone2.png';
 
 
@@ -21,7 +21,7 @@ export default function Section4() {
           {/* Quando a tela ficar menor esse container é exibido  */}
           <div className="lg:hidden flex flex-col  max-w-[519px] w-full text-2xl text-center space-y-5">
             <div className='flex flex-row space-x-4 border-4 rounded-2xl items-center py-2.5 px-5'>
-              <img src={app} alt="app" title='app' className='w-8' />
+              <img src={app} alt="app" title='app' className='w-6' />
               <p className='text-start text-base sm:text-2xl'>Aplicativo exclusivo para máxima segurança e eficiência</p>
             </div>
             <div className='flex flex-row space-x-4 border-4 rounded-2xl items-center py-2.5 px-5'>
@@ -88,7 +88,7 @@ export default function Section4() {
             <p className='text-start text-base sm:text-2xl'>Soluções para receber entrega com facilidade e segurança.</p>
           </div>
           <div className='flex flex-row space-x-4 border-4  rounded-2xl items-center py-2.5 px-5'>
-            <img src={convite} alt="chaves-virtuais" title='Envio de chaves virtuais'  className='w-10' />
+            <img src={convite} alt="chaves-virtuais" title='Envio de chaves virtuais'  className='w-9' />
             <p className='text-start text-base sm:text-2xl'>Diversas formas de convite para os convidados aceserem o condomínio</p>
           </div>
           <div className="flex space-x-4">

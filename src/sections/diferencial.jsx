@@ -1,12 +1,12 @@
 import React from 'react';
-import ico1 from '../assets/diferencial/ico1.png';
+import ico1 from '../assets/diferencial/ico1.svg';
 import ico2 from '../assets/diferencial/ico2.png';
-import ico3 from '../assets/diferencial/ico3.png';
+import ico3 from '../assets/diferencial/ico3.svg';
 import ico4 from '../assets/diferencial/ico4.png';
-import ico5 from '../assets/diferencial/ico5.png';
-import ico6 from '../assets/diferencial/ico6.png';
-import ico7 from '../assets/diferencial/ico7.png';
-import ico8 from '../assets/diferencial/ico8.png';
+import ico5 from '../assets/diferencial/ico5.svg';
+import ico6 from '../assets/diferencial/ico6.svg';
+import ico7 from '../assets/diferencial/ico7.svg';
+import ico8 from '../assets/diferencial/ico8.svg';
 
 
 

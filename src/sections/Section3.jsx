@@ -1,4 +1,4 @@
-import Secruty from '../assets/icons/security.png'
+import Secruty from '../assets/icons/security.svg'
 import ArrowGig from '../assets/icons/arrow-gif.gif'
 
 export default function Section3 () {

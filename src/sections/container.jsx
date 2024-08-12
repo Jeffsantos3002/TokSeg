@@ -1,7 +1,7 @@
 import React from 'react';
-import icone1 from '../assets/icones-container/icone1.png';
+import icone1 from '../assets/icones-container/icone1.svg';
 import icone2 from '../assets/icones-container/icone2.png';
-import icone3 from '../assets/icones-container/icone3.png';
+import icone3 from '../assets/icones-container/icone3.svg';
 
 
 const Container = () => {
