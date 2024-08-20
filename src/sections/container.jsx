@@ -30,7 +30,7 @@ const Container = () => {
               <img src={icone3} alt="Ícone 3" className="mb-4" />
             </div>
             <span className="text-white font-lato font-medium text-[20px] text-center">
-              Receba notificações PUSH em tempo real em seu celular, da entrada e da saída de pessoas e veículos do local.
+              Receba notificações PUSH em tempo real em seu celular, da entrada e da saída de pessoas e veículos do condomínio.
             </span>
           </div>
         </div>

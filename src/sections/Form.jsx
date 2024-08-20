@@ -145,7 +145,7 @@ export default function Form() {
         ref={form}
       >
         <div className="space-y-12 flex flex-col lg:items-start items-center lg:w-1/2">
-          <h1 className="text-5xl text-center font-bold text-verdeFosco">Monte do seu jeito!</h1>
+          <h1 className="text-5xl text-center font-bold text-verdeFosco">Personalize a tecnologia a ser implantada no seu condomínio!!</h1>
           <p className="text-3xl lg:text-start text-center">Portaria TokSeg é o que seu empreendimento precisa: nem mais, nem menos do que o necessário.</p>
           <div className="w-4/5 space-y-2  divide-y">
             <div className="flex flex-row justify-center items-center py-2 ">

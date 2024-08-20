@@ -7,7 +7,7 @@ export default function Section3 () {
       <div className='w-full max-w-[1256px] '>
         <div className="flex flex-col justify-start items-start space-y-12 w-full max-w-[573px]">
           <img className='w-52' src={Secruty} alt="segurança" title='segurança'/>
-          <h2 className='text-5xl text-black	'>Descubra um novo conceito<strong> <br/> de viver em condomínio.</strong> </h2>
+          <h2 className='text-5xl text-black	'>Tornando o seu mundo <strong> <br/> mais seguro.</strong> </h2>
           <p className='text-3xl'>Proporcione mais segurança para você e sua família com a solução Tokseg, que coloca o morador no centro de tudo e avança constantemente para atender suas necessidades.</p>
           <div className='w-full space-y-8'>
             <div className='flex flex-col justify-center items-center max-w-80 w-full'>

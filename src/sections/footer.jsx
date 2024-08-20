@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../assets/banner/logo.png';
+import logotokseg from '../assets/banner/logotokseg.png';
 import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn, FaPhoneAlt, FaEnvelope, FaMapMarkerAlt  } from 'react-icons/fa';
 
 
@@ -8,7 +8,7 @@ const Footer = () => {
         <footer className="py-8 bg-gray-800 text-white">
         <div className="container mx-auto flex flex-col md:flex-row justify-between">
           <div className="flex flex-col md:w-1/2">
-            <img src={logo} alt="Logo da Empresa" className="w-40 h-auto mb-4" />
+            <img src={logotokseg} alt="Logo da Empresa" className="w-40 h-auto mb-4" />
             <h2 className="font-semibold mb-2">Canais de Atendimento</h2>
             <div className="mb-2 flex items-center">
               <FaPhoneAlt className="mr-2" />

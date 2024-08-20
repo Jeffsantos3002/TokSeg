@@ -42,10 +42,10 @@ export default function Section4() {
             </div>
             <div className="flex space-x-4">
               <div className='space-x-4 border-4 rounded-2xl flex justify-center items-center py-8 px-5 w-1/2'>
-                <p className='text-base sm:text-2xl'>Integração CardPlay e Android Auto</p>
+                <p className='text-base sm:text-2xl'>Tags veiculares</p>
               </div>
               <div className='space-x-4 border-4 rounded-2xl flex justify-center items-center py-8 px-5 w-1/2'>
-              <p className='text-base sm:text-2xl'>Integração CardPlay e Android Auto</p>
+              <p className='text-base sm:text-2xl'>Notificações de acesso a unidade em tempo real</p>
               </div>
             </div>
             <div className="flex space-x-4">
@@ -53,7 +53,7 @@ export default function Section4() {
                 <p className='text-base sm:text-2xl'>Monitoramento Patrimonial</p>
               </div>
               <div className='space-x-4 border-4 rounded-2xl flex justify-center items-center py-8 px-5 w-1/2'>
-                <p className='text-base sm:text-2xl'>Integração CardPlay e Android Auto</p>
+                <p className='text-base sm:text-2xl'>Agendamento de Prestadores de Serviço</p>
               </div>
             </div>
           </div>
@@ -89,7 +89,7 @@ export default function Section4() {
           </div>
           <div className='flex flex-row space-x-4 border-4  rounded-2xl items-center py-2.5 px-5'>
             <img src={convite} alt="chaves-virtuais" title='Envio de chaves virtuais'  className='w-9' />
-            <p className='text-start text-base sm:text-2xl'>Diversas formas de convite para os convidados aceserem o condomínio</p>
+            <p className='text-start text-base sm:text-2xl'>Diversas formas de convite para os convidados acessarem o condomínio.</p>
           </div>
           <div className="flex space-x-4">
             <div className='space-x-4 border-4  rounded-2xl flex justify-center items-center py-8 px-5 w-1/2'>
