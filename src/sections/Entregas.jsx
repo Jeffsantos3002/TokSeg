@@ -9,9 +9,9 @@ const Entregas = () => {
           Não é apenas uma encomenda com a Tokseg, é a segurança e a confiança que sua encomenda merece.
         </h2>
         
-        <div className="flex flex-col md:flex-row items-center space-y-8 md:space-y-0 md:space-x-8">
-          <div className="md:w-1/2">
-            <h2 className="text-5xl font-bold mb-12 text-center md:text-left">Descubra o novo jeito de receber suas entregas!</h2>
+        <div className="flex flex-col lg:flex-row justify-between items-center space-y-8 md:space-y-0 md:space-x-8">
+          <div className="lg:w-1/2 lg:order-first order-last">
+            <h2 className="text-5xl font-bold mb-12 text-center lg:text-left">Descubra o novo jeito de receber suas entregas!</h2>
             
             <div className="mb-12">
               <h3 className="text-4xl font-semibold mb-4 ">Comodidade para os moradores:</h3>
@@ -29,23 +29,23 @@ const Entregas = () => {
               </p>
             </div>
 
-            <div className="mb-8">
-              <button className='btn btn-success rounded-full max-w-80 w-full text-white text-center text-base'
-                
-              >
+            <div className="mb-8 flex justify-center">
+              <button className='btn btn-success rounded-full max-w-80 w-full text-white text-center text-base'>
                 <a href="#form" className="scroll-smooth">Orçamento sem compromisso</a>
               </button>
             </div>
 
           </div>
 
-          <div className="md:w-1/2 relative">
-            <img src={entrega} alt="Imagem de entrega" className="w-3/4 md:w-full h-auto ml-40 mb-25 rounded-3xl" />
+          <div className="lg:w-1/2 lg:order-last order-first relative flex items-center justify-center pb-12">
+            <img src={entrega} alt="Imagem de entrega" className="w-3/4 lg:w-full h-auto mb-25 rounded-3xl" />
           </div>
         </div>
       </div>
     </section>
   );
 };
+
+
 
 export default Entregas;
