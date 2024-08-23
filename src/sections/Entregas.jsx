@@ -15,7 +15,7 @@ const Entregas = () => {
             
             <div className="mb-12">
               <h3 className="text-4xl font-semibold mb-4 ">Comodidade para os moradores:</h3>
-              <p className="text-2xl text-left mb-4 p-2">
+              <p className="text-2xl text-left mb-4">
                 Contamos com um sistema de armários compartilhados.
                 Assim que a encomenda é recebida, o morador recebe uma notificação no celular.
                 Quando chegar em casa, sem pressa, o morador pode se dirigir à portaria  e retirar sua encomenda.
@@ -24,7 +24,7 @@ const Entregas = () => {
 
             <div className="mb-12">
               <h3 className="text-4xl font-semibold mb-4">Facilidade para entregadores:</h3>
-              <p className="text-2xl text-left mb-4 p-2">
+              <p className="text-2xl text-left mb-4">
               A Tokseg previne complicações como o não recebimento, dificuldade de acesso ao local da entrega e encomendas deixadas em locais impróprios.
               </p>
             </div>
@@ -38,7 +38,7 @@ const Entregas = () => {
           </div>
 
           <div className="lg:w-1/2 lg:order-last order-first relative flex items-center justify-center pb-12">
-            <img src={entrega} alt="Imagem de entrega" className="w-3/4 lg:w-full h-auto mb-25 rounded-3xl" />
+            <img src={entrega} alt="Imagem de entrega" className="w-3/4 md:size-4/5 h-auto mb-25 rounded-3xl" />
           </div>
         </div>
       </div>

@@ -1,11 +1,23 @@
-import React from 'react';
-import logotokseg from '../assets/banner/logotokseg.png';
-import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn, FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
+import React, { useEffect } from 'react';
+import CookieConsent from 'react-cookie-consent';
 
+export default function Cookie() {
+  useEffect(() => {
+    // Função para listar todos os cookies
+    const listCookies = () => {
+      const cookies = document.cookie.split(';');
+      cookies.forEach(cookie => {
+        console.log('Cookie:', cookie);
+      });
+    };
 
-const Footer = () => {
+    // Listar cookies ao carregar a página
+    listCookies();
+  }, []);
+
   return (
-    <footer className="py-8 bg-gray-800 text-white">
+    <div>
+      {/* <input type="checkbox" id="my_modal_3" className="modal-toggle" /> */}
       <dialog id="my_modal_3" className="modal" role="dialog">
         <div className="modal-box overflow-hidden bg-dark2 space-y-4">
           <h4>Política de privacidade</h4>
@@ -173,60 +185,18 @@ const Footer = () => {
         </div>
       </dialog>
 
-      <div className="container mx-auto flex flex-col justify-center items-center relative w-full max-w-[1256px] space-y-4 px-4">
-        <img src={logotokseg} alt="Logo da Empresa" className="w-56 h-auto mb-4" />
-        <div className='flex md:flex-row  flex-col justify-between items-center w-full space-y-4 md:space-y-0'>
-          <div className="flex flex-col justify-center items-center md:items-start space-y-2">
-            <h2 className="font-semibold ">Canais de Atendimento</h2>
-            <div className=" flex items-center">
-              <FaPhoneAlt className="mr-2" />
-              <span>79 999609197</span>
-            </div>
-            <div className=" flex items-center">
-              <FaPhoneAlt className="mr-2" />
-              <span>79 32512318</span>
-            </div>
-            <div className=" flex items-center">
-              <FaEnvelope className="mr-2" />
-              <span>suportetokseg@gmail.com</span>
-            </div>
-            <div className=" flex items-center flwx-row  ">
-              <FaMapMarkerAlt className="mr-2" />
-              <p className='text-center'>Rua zoroastro Rodrigues Santos 125 - Orlando Dantas, Aracaju - SE</p>
-            </div>
-            <div className=" flex items-center">
-              <span className="mr-2">CNPJ:</span>
-              <span>46564.393.0001/67</span>
-            </div>
-          </div>
-          <div className="flex flex-col items-center md:items-start">
-            <h2 className="font-semibold mb-2">Redes Sociais</h2>
-            <div className="flex space-x-4">
-              <a href="https://www.facebook.com/toksegseguracaeletronicaetecnologia/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400">
-                <FaFacebookF />
-              </a>
-              {/* <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400">
-                <FaTwitter />
-              </a> */}
-              <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400">
-                <FaInstagram />
-              </a>
-              {/* <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400">
-                <FaLinkedinIn />
-              </a> */}
-            </div>
-            <h2 className="font-semibold mt-4 mb-2">LGPD</h2>
-            <span className='underline cursor-pointer text-sm' onClick={() => document.getElementById('my_modal_3').showModal()}>Política de Privacidade e Termos de Uso</span>
-          </div>
-        </div>
-        <div className='border-t w-full'>
-          <p className='text-center pt-2 text-sm'>© TokSeg. Todos os direitos reservados</p>
-        </div>
+      <CookieConsent
+        location="bottom"
+        buttonText="Aceitar"
+        cookieName="userConsent"
+        style={{ background: "#2B373B" }}
+        buttonStyle={{ color: "#fff", fontSize: "13px", backgroundColor: '#00935f' }}
+        expires={1}
+      >
+        Usamos cookies para personalizar conteúdos e melhorar a sua experiência. Ao navegar neste site, você concorda com a nossa {" "}
+        <span className='underline cursor-pointer' onClick={() => document.getElementById('my_modal_3').showModal()}>Política de Privacidade e Termos de Uso</span>
 
-      </div>
-    </footer>
-
+      </CookieConsent>
+    </div>
   );
-};
-
-export default Footer;
+}
