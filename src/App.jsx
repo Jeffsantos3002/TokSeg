@@ -1,14 +1,30 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import Banner from './sections/Banner'
+import Form from './sections/Form'
+import Section2 from './sections/Section2'
+import Section3 from './sections/Section3'
+import Section4 from './sections/Section4'
+import Section6 from './sections/Section6'
+import Cookie from './sections/Cookie'
+import Footer from './sections/footer'
+import Section7 from './sections/Section7'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <h1 className='text-2xl font-bold w-full'>Iniciando</h1>       
+    <div className='text-white'>
+      <Banner/>
+      <Section2/>
+      <Section3/>
+      <Section4/>
+      <Form/>
+      <Section6/>
+      <Section7/>
+      <Cookie/>
+      <Footer/>
+    </div>
     </>
+
   )
 }
 
