@@ -16,11 +16,11 @@ export default function Aplicativo() {
           </p>
           <div className='space-x-8 lg:w-full w-auto '>
 
-            <a className="btn rounded sm:px-8" href="https://apps.apple.com/br/app/acesso-seguro-app/id6466288946" target='_blank' >
+            <a className="btn rounded bg-white border-none sm:px-8" href="https://apps.apple.com/br/app/acesso-seguro-app/id6466288946" target='_blank' >
               <img src={appStore} alt="appstore-download" className='w-8  ' />
-              <p className='text-xl'>IOS</p>
+              <p className='text-xl text-dark'>IOS</p>
             </a>
-            <a className="btn rounded sm:px-8" href="https://play.google.com/store/apps/details?id=br.com.acessoseguroapp" target='_blank' >
+            <a className="btn bg-white text-dark  rounded border-none sm:px-8" href="https://play.google.com/store/apps/details?id=br.com.acessoseguroapp" target='_blank' >
               <img src={playstore} alt="playstore-download" className='w-8 ' />
               <p className='text-xl'>Android</p>
             </a>
