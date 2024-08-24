@@ -20,9 +20,9 @@ export default function Form() {
   const funcao = useRef(null)
   const problema = useRef(null)
   const aceito = useRef(null)
-  const pergunta1 = useRef(null)
-  const pergunta2 = useRef(null)
-  const pergunta3 = useRef(null)
+  const portaria_fisicia = useRef(null)
+  const portaria_remota = useRef(null)
+  const portaria_hibrida = useRef(null)
   
   const checkEmail = () => {
     const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
@@ -116,14 +116,14 @@ export default function Form() {
       role: funcao.current.value,
       issue: problema.current.value,
       accepted: aceito.current.checked ? 'Sim' : 'Não',
-      pergunta1: pergunta1.current.checked ? 'Sim' : 'Não',
-      pergunta2: pergunta2.current.checked ? 'Sim' : 'Não',
-      pergunta3: pergunta3.current.checked ? 'Sim' : 'Não'
+      portaria_fisicia: portaria_fisicia.current.checked ? 'Sim' : 'Não',
+      portaria_remota: portaria_remota.current.checked ? 'Sim' : 'Não',
+      portaria_hibrida: portaria_hibrida.current.checked ? 'Sim' : 'Não'
     };
     console.log(checkEmail(), checkNome(), checkTel(), checkCidade(), checkProblema())
     if (checando() ) {
  
-      EmailJs.send('service_f04ec6h', 'template_7p0uq5e', templateParams, 'DdAcSucYxeBHBNXBQ')
+      EmailJs.send('service_lpm9evo', 'template_ogkqiil', templateParams, 'H3wt4aqgVdX0ehnCi')
       .then((response) => {
         console.log('email enviado', response.status, response.text);
       })
