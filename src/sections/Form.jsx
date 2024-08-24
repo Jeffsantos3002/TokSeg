@@ -20,7 +20,7 @@ export default function Form() {
   const funcao = useRef(null)
   const problema = useRef(null)
   const aceito = useRef(null)
-  const portaria_fisicia = useRef(null)
+  const portaria_fisica = useRef(null)
   const portaria_remota = useRef(null)
   const portaria_hibrida = useRef(null)
   
@@ -60,7 +60,7 @@ export default function Form() {
       setVerificaTel(null);
       return true;
     } else {
-      setVerificaTel('Número inválido');
+      setVerificaTel('Número inválido: xx xxxxxxxxx');
       return false;
     }
   };
@@ -116,7 +116,7 @@ export default function Form() {
       role: funcao.current.value,
       issue: problema.current.value,
       accepted: aceito.current.checked ? 'Sim' : 'Não',
-      portaria_fisicia: portaria_fisicia.current.checked ? 'Sim' : 'Não',
+      portaria_fisica: portaria_fisica.current.checked ? 'Sim' : 'Não',
       portaria_remota: portaria_remota.current.checked ? 'Sim' : 'Não',
       portaria_hibrida: portaria_hibrida.current.checked ? 'Sim' : 'Não'
     };
@@ -150,15 +150,15 @@ export default function Form() {
           <div className="w-4/5 space-y-2  divide-y">
             <div className="flex flex-row justify-center items-center py-2 ">
               <label htmlFor="lorem" className="w-10/12 pr-2 text-3xl font-bold">Portaria Física</label>
-              <input type="checkbox" className="toggle toggle-lg  checked:[--tglbg:#00a96e]  bg-verdeFosco hover:bg-verdeFosco" defaultChecked ref={pergunta1}/>
+              <input type="checkbox" className="toggle toggle-lg  checked:[--tglbg:#00a96e]  bg-verdeFosco hover:bg-verdeFosco" defaultChecked ref={portaria_fisica}/>
             </div>
             <div className="flex flex-row justify-center items-center py-2 ">
               <label htmlFor="lorem2" className="w-10/12 pr-2 text-3xl font-bold ">Portaria Remota</label>
-              <input type="checkbox" className="toggle toggle-lg  checked:[--tglbg:#00a96e]  bg-verdeFosco hover:bg-verdeFosco" ref={pergunta2} />
+              <input type="checkbox" className="toggle toggle-lg  checked:[--tglbg:#00a96e]  bg-verdeFosco hover:bg-verdeFosco" ref={portaria_remota} />
             </div>
             <div className="flex flex-row justify-center items-center py-2">
               <label htmlFor="lorem3" className="w-10/12 pr-2 text-3xl font-bold"> Portaria Hibrida</label>
-              <input type="checkbox" className="toggle toggle-lg  checked:[--tglbg:#00a96e]  bg-verdeFosco hover:bg-verdeFosco" ref={pergunta3} />
+              <input type="checkbox" className="toggle toggle-lg  checked:[--tglbg:#00a96e]  bg-verdeFosco hover:bg-verdeFosco" ref={portaria_hibrida} />
 
             </div>
           </div>
@@ -184,7 +184,7 @@ export default function Form() {
           </div>
           <div className="flex flex-col">
             <label htmlFor="telefone">Telefone para contato * </label>
-            <input className="input input-bordered text-pretoTokSeg input-success w-full bg-white" type="tel" id="telefone" name="telefone" placeholder="DDD + Telefone" ref={telefone} />
+            <input className="input input-bordered text-pretoTokSeg input-success w-full bg-white" type="tel" id="telefone" name="telefone" placeholder="(DDD) 000000000" ref={telefone} />
             {verificaTel &&
               <p className="text-verdeTokSeg">{verificaTel}</p>
             }
