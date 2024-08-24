@@ -17,7 +17,7 @@ const Diferencial = () => {
                         <div className="text-center mb-8">
                             <p className="text-2xl md:text-4xl font-bold mb-24 text-center text-gray-800">Portaria Tokseg é muito mais do que uma empresa de tecnologia, para condomínios.</p>
                         </div>
-                        <div className="grid grid-cols-2 gap-8 md:grid-cols-4">
+                        <div className="grid sm:grid-cols-2 gap-8 md:grid-cols-3 lg:grid-cols-4">
                             <div className="flex flex-col items-center mb-16">
                                 <img src={ico1} alt="Ícone 1" className="w-32 h-auto mb-2" />
                                 <p className=" text-lg text-center text-gray-800">Moldamos nossas soluções para atender as demandas do seu condominio.</p>
@@ -52,7 +52,7 @@ const Diferencial = () => {
                             </div>
                         </div>
                         <div className="flex justify-center">
-                           <button className='btn btn-success rounded-full max-w-80 w-full text-white text-center text-base mt-24'>
+                           <button className='btn bg-white rounded-full max-w-80 w-full text-center text-base mt-24'>
                                 <a href="#form" className="scroll-smooth">Falar com especialista</a>
                             </button>
                         </div>

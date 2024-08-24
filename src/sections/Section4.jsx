@@ -63,7 +63,7 @@ export default function Section4() {
           </iframe>
 
           <a href="#form" className='w-full max-w-[600px] flex items-center justify-center '>
-            <button className='text-base btn btn-success rounded-full border-none text-white  w-full max-w-[356px]'>
+            <button className='text-base btn bg-white rounded-full border-none w-full max-w-[356px]'>
               Orçamento sem compromisso
             </button>
           </a>
