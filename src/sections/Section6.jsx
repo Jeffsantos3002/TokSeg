@@ -5,7 +5,7 @@ import monitoramento from '../assets/section6/monitoramento.png'
 
 export default function Section6 () {
   return(
-    <div className="w-full bg-pretoTokSeg  py-12 flex justify-center px-5">
+    <div className="w-full bg-dark  py-12 flex justify-center px-5">
       <div className="w-full max-w-[1256px] flex flex-col lg:flex-row items-center lg:items-start justify-between space-y-16 lg:space-y-0 lg:space-x-8">
         <div className='flex flex-col items-center text-center lg:text-start space-y-8 max-w-[322px] w-full'>
           <h1 className='text-4xl	font-semibold max-w-60 w-full text-center mt-8 lg:mt-0 '>Monitramento 24 horas</h1>

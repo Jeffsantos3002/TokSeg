@@ -6,7 +6,7 @@ import icone3 from '../assets/icones-container/icone3.svg';
 
 const Container = () => {
   return (
-    <div className="bg-verdeTokSeg">
+    <div className="bg-dark">
       <div className="flex flex-col justify-center items-center h-full px-4 py-24 mx-auto  max-w-[1256px] space-y-4 px-4">
         <div className="flex justify-between md:flex-row flex-col items-center w-full space-x-4 md:space-y-0 space-y-5">
           <div className="flex flex-col items-center text-center md:w-1/3">

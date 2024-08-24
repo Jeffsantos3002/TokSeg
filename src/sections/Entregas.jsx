@@ -3,7 +3,7 @@ import entrega from '../assets/banner/entrega.png';
 
 const Entregas = () => {
   return (
-    <section className="py-12 bg-verdeTokSeg text-gray-900 relative">
+    <section className="py-12 bg-verdeTokSeg text-gray-900">
       <div className="container mx-auto px-4">
         <h2 className="text-2xl md:text-6xl font-bold mb-24 text-center">
           Não é apenas uma encomenda com a Tokseg, é a segurança e a confiança que sua encomenda merece.
@@ -30,14 +30,14 @@ const Entregas = () => {
             </div>
 
             <div className="mb-8 flex justify-center">
-              <button className='btn btn-success rounded-full max-w-80 w-full text-white text-center text-base'>
+              <button className='btn bg-white rounded-full max-w-80 w-full text-center text-base'>
                 <a href="#form" className="scroll-smooth">Orçamento sem compromisso</a>
               </button>
             </div>
 
           </div>
 
-          <div className="lg:w-1/2 lg:order-last order-first relative flex items-center justify-center pb-12">
+          <div className="lg:w-1/2 lg:order-last order-first flex items-center justify-center pb-12">
             <img src={entrega} alt="Imagem de entrega" className="w-3/4 md:size-4/5 h-auto mb-25 rounded-3xl" />
           </div>
         </div>

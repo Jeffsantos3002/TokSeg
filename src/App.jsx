@@ -8,13 +8,18 @@ import Section4 from './sections/Section4'
 import Section6 from './sections/Section6'
 import Diferencial from './sections/diferencial'
 import  Cookie from './sections/Cookie'
+import Header from './componentes/Header'
+import Whatsapp from './componentes/Whatssap'
+import Aplicativo from './sections/Aplicativo'
 
 function App() {
   return (
     <>
     <div className='text-white'>
+      <Header/>
       <Banner/>
       <Container/>
+      <Aplicativo/>
       <Section3/>
       <Section4/>
       <Form/>
@@ -23,6 +28,7 @@ function App() {
       <Entregas/>
       <Footer/>
       <Cookie/>
+      <Whatsapp/>
     </div>
     </>
 

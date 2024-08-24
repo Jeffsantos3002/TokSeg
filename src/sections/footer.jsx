@@ -5,7 +5,7 @@ import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn, FaPhoneAlt, FaEnvelo
 
 const Footer = () => {
   return (
-    <footer className="py-8 bg-gray-800 text-white">
+    <footer className="py-8 bg-dark text-white">
       <dialog id="my_modal_3" className="modal" role="dialog">
         <div className="modal-box overflow-hidden bg-dark2 space-y-4">
           <h4>Política de privacidade</h4>
@@ -208,7 +208,7 @@ const Footer = () => {
               {/* <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400">
                 <FaTwitter />
               </a> */}
-              <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400">
+              <a href="https://www.instagram.com/toksegoficial/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400">
                 <FaInstagram />
               </a>
               {/* <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400">

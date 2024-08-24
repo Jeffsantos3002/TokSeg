@@ -165,7 +165,7 @@ export default function Form() {
           <p className="text-3xl lg:text-start text-center">Nosso aplicativo exclusivo 'AcessoSeguro' oferece funcionalidades que se adaptam à rotina de cada morador, permitindo personalização prática e rápida.</p>
         </div>
         <div
-          className="flex flex-col justify-center bg-lilas rounded-md pr-5 lg:pl-12 pl-5  py-2.5 z-10 lg:w-1/2 space-y-8"
+          className="flex flex-col justify-center bg-lilas rounded-md pr-5 lg:pl-12 pl-5  py-2.5 lg:w-1/2 space-y-8"
         // action="https://api.staticforms.xyz/submit" method="POST"
         >
           <div className="flex flex-col">

@@ -52,7 +52,7 @@ const Diferencial = () => {
                             </div>
                         </div>
                         <div className="flex justify-center">
-                           <button className='btn btn-success rounded-full max-w-80 w-full text-white text-center text-base mt-24'>
+                           <button className='btn bg-white rounded-full max-w-80 w-full text-center text-base mt-24'>
                                 <a href="#form" className="scroll-smooth">Falar com especialista</a>
                             </button>
                         </div>
