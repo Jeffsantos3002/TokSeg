@@ -1,5 +1,5 @@
 import aplicativo from '../assets/section6/aplicativo.jpg'
-import automação from '../assets/section6/automação.jpg'
+import automação from '../assets/section6/automação.jpeg'
 import monitoramento from '../assets/section6/monitoramento.png'
 
 
