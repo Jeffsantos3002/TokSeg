@@ -1,5 +1,5 @@
 import aplicativo from '../assets/section6/aplicativo.jpg'
-import automação from '../assets/section6/automação.jpeg'
+import automação from '../assets/section6/automacao.jpeg'
 import monitoramento from '../assets/section6/monitoramento.png'
 
 
@@ -15,7 +15,7 @@ export default function Section6 () {
         </div>
         <div className='flex flex-col items-center text-center lg:text-start space-y-8 max-w-[322px] w-full'>
           <h1 className='text-4xl	font-semibold mt-8 lg:mt-0 text-center'>Automação de ambientes</h1>
-          <img className='w-44 h-44 rounded-full' src={automação} alt="monitaramento" title='aplicativo' />
+          <img className='w-44 h-44 rounded-full' src={automacao} alt="monitaramento" title='aplicativo' />
           <h2 className='text-2xl	font-semibold'>Poder e controle na palma da mão.</h2>
           <p>Temos soluções de automação para deixar seu dia a dia mais prático e eficiente, desde o controle de acesso e iluminação inteligente até a climatização e segurança residencial.</p>
         </div>
