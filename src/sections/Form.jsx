@@ -149,15 +149,15 @@ export default function Form() {
           <p className="text-3xl lg:text-start text-center">Portaria TokSeg é o que seu empreendimento precisa: nem mais, nem menos do que o necessário.</p>
           <div className="w-4/5 space-y-2  divide-y">
             <div className="flex flex-row justify-center items-center py-2 ">
-              <label htmlFor="lorem" className="w-10/12 pr-2 text-3xl font-bold">Lorem ipsum dolor sit amet consectetur adipisicing elit.</label>
+              <label htmlFor="lorem" className="w-10/12 pr-2 text-3xl font-bold">Portaria Física</label>
               <input type="checkbox" className="toggle toggle-lg  checked:[--tglbg:#00a96e]  bg-verdeFosco hover:bg-verdeFosco" defaultChecked ref={pergunta1}/>
             </div>
             <div className="flex flex-row justify-center items-center py-2 ">
-              <label htmlFor="lorem2" className="w-10/12 pr-2 text-3xl font-bold ">Perferendis distinctio vitae eaque alias,</label>
+              <label htmlFor="lorem2" className="w-10/12 pr-2 text-3xl font-bold ">Portaria Remota</label>
               <input type="checkbox" className="toggle toggle-lg  checked:[--tglbg:#00a96e]  bg-verdeFosco hover:bg-verdeFosco" ref={pergunta2} />
             </div>
             <div className="flex flex-row justify-center items-center py-2">
-              <label htmlFor="lorem3" className="w-10/12 pr-2 text-3xl font-bold"> eum autem eos necessitatibus dolor</label>
+              <label htmlFor="lorem3" className="w-10/12 pr-2 text-3xl font-bold">Portaria Hibrida</label>
               <input type="checkbox" className="toggle toggle-lg  checked:[--tglbg:#00a96e]  bg-verdeFosco hover:bg-verdeFosco" ref={pergunta3} />
 
             </div>
