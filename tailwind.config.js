@@ -12,6 +12,7 @@ export default {
       'button': '#333333',
       'white': '#ffffff',
       'dark': '#1d232a',
+      'gray' : '#F6F6F6',
     },
     extend: {
       fontFamily: {

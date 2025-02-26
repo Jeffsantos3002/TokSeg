@@ -26,8 +26,8 @@ export default function Header() {
     <header className={`fixed w-full `}>
       <div className={`navbar flex justify-end md:px-8 py-4 ${headerColor} `}>
         <div className="navbar-end space-x-6">
-          <a className="btn rounded bg-white border-none shadow-none text-dark px-8" href="https://tokseg.acesso.app.br/login" target='_blank' >Acessar</a>
-          <a className="btn btn-success px-8 rounded border-none text-white"  href="https://api.whatsapp.com/message/GCVHBXESHCOGN1?autoload=1&app_absent=0" target='_blank'>Quero conhecer</a>
+          <a className="btn rounded bg-gray border-none shadow-none text-dark px-8" href="https://tokseg.acesso.app.br/login" target='_blank' >Acessar</a>
+          <a className="btn btn-success px-8 rounded border-none text-white"  href= "https://wa.me/557932512318"  target='_blank'>Quero conhecer</a>
         </div>
       </div>
     </header>
