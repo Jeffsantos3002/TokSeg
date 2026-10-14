@@ -1,70 +1,57 @@
-import React, { useEffect } from 'react';
 import CookieConsent from 'react-cookie-consent';
 
 export default function Cookie() {
-  useEffect(() => {
-    // Função para listar todos os cookies
-    const listCookies = () => {
-      const cookies = document.cookie.split(';');
-      cookies.forEach(cookie => {
-        console.log('Cookie:', cookie);
-      });
-    };
-
-    // Listar cookies ao carregar a página
-    listCookies();
-  }, []);
 
   return (
     <div>
       {/* <input type="checkbox" id="my_modal_3" className="modal-toggle" /> */}
       <dialog id="my_modal_3" className="modal" role="dialog">
-        <div className="modal-box overflow-hidden bg-dark2 space-y-4">
-          <h4>Política de privacidade</h4>
-          <div class="col-12 h-96 overflow-auto py-4 bg-dark rounded-md px-4">
+        <div className="modal-box max-w-3xl overflow-hidden bg-dark2 text-white space-y-4">
+          <h4 className="text-xl font-bold">Política de privacidade</h4>
+          <div className="h-96 overflow-auto py-4 bg-dark rounded-xl px-5 space-y-3 text-sm leading-relaxed text-white/85">
 
-            <p class="mb-20">Este site é mantido e operado por TokSeg Segurança e Tecnologia.</p>
+            <p className="mb-4">Este site é mantido e operado por TokSeg Segurança e Tecnologia.</p>
             <p>Nós coletamos e utilizamos alguns dados pessoais que pertencem àqueles que utilizam nosso site. Ao fazê-lo, agimos na qualidade de controlador desses dados e estamos sujeitos às disposições da Lei Federal n. 13.709/2018 (Lei Geral de Proteção de Dados Pessoais – LGPD).</p>
             <p>Nós cuidamos da proteção de seus dados pessoais e, por isso, disponibilizamos esta política de privacidade, que contém informações importantes sobre:</p>
-            <ul class="list">
-              <li class="mb-2"><i class="far fa-circle"></i>Quem deve utilizar nosso site;</li>
-              <li class="mb-2"><i class="far fa-circle"></i>Quais dados coletamos e o que fazemos com eles;</li>
-              <li class="mb-2"><i class="far fa-circle"></i>Seus direitos em relação aos seus dados pessoais;</li>
-              <li class="mb-2"><i class="far fa-circle"></i>Como entrar em contato conosco.</li>
+            <ul className="list-disc pl-6 my-3">
+              <li className="mb-2">Quem deve utilizar nosso site;</li>
+              <li className="mb-2">Quais dados coletamos e o que fazemos com eles;</li>
+              <li className="mb-2">Seus direitos em relação aos seus dados pessoais;</li>
+              <li className="mb-2">Como entrar em contato conosco.</li>
             </ul>
-            <h4 class="mt-4">Dados que coletamos e motivos da coleta</h4>
-            <p class="mb-20">Nosso site coleta e utiliza alguns dados pessoais de nossos usuários, de acordo com o disposto nesta seção.</p>
+            <h4 className="mt-4 font-bold">Dados que coletamos e motivos da coleta</h4>
+            <p className="mb-4">Nosso site coleta e utiliza alguns dados pessoais de nossos usuários, de acordo com o disposto nesta seção.</p>
             <p><strong>1. Dados pessoais fornecidos expressamente pelo usuário</strong></p>
-            <p class="mb-20">Nós coletamos os seguintes dados pessoais que nossos usuários nos fornecem expressamente ao utilizar nosso site:</p>
-            <ul class="list">
-              <li class="mb-2"><i class="far fa-circle"></i>Nome completo</li>
-              <li class="mb-2"><i class="far fa-circle"></i>CPF</li>
-              <li class="mb-2"><i class="far fa-circle"></i>Email</li>
-              <li class="mb-2"><i class="far fa-circle"></i>Telefone</li>
-              <li class="mb-2"><i class="far fa-circle"></i>Data de nascimento</li>
-              <li class="mb-2"><i class="far fa-circle"></i>Endereço residencial</li>
+            <p className="mb-4">Nós coletamos os seguintes dados pessoais que nossos usuários nos fornecem expressamente ao utilizar nosso site:</p>
+            <ul className="list-disc pl-6 my-3">
+              <li className="mb-2">Nome completo</li>
+              <li className="mb-2">CPF</li>
+              <li className="mb-2">Email</li>
+              <li className="mb-2">Telefone</li>
+              <li className="mb-2">Data de nascimento</li>
+              <li className="mb-2">Endereço residencial</li>
             </ul>
             <p>A coleta destes dados ocorre nos seguintes momentos:</p>
-            <p class="mb-20">Preenchimento de formulário de mais informações sobre cursos</p>
-            <p class="mb-20">Os dados fornecidos por nossos usuários são coletados com as seguintes finalidades:</p>
-            <ul class="list">
-              <li class="mb-2"><i class="far fa-circle"></i>Para que possa participar dos nossos cursos;</li>
-              <li class="mb-2"><i class="far fa-circle"></i>Para que o usuário possa receber mais informações sobre nossos cursos;</li>
-              <li class="mb-2"><i class="far fa-circle"></i>Para que o usuário seja atendindo pela nossa central de atendimento online;</li>
-              <li class="mb-2"><i class="far fa-circle"></i>Para que possamos enviar nossos produtos aos usuários cadastrados;</li>
-              <li class="mb-2"><i class="far fa-circle"></i>Para que possamos enviar ofertas de cursos para os cadastrados.</li>
+            <p className="mb-4">Preenchimento de formulário de mais informações sobre cursos</p>
+            <p className="mb-4">Os dados fornecidos por nossos usuários são coletados com as seguintes finalidades:</p>
+            <ul className="list-disc pl-6 my-3">
+              <li className="mb-2">Para que possa participar dos nossos cursos;</li>
+              <li className="mb-2">Para que o usuário possa receber mais informações sobre nossos cursos;</li>
+              <li className="mb-2">Para que o usuário seja atendindo pela nossa central de atendimento online;</li>
+              <li className="mb-2">Para que possamos enviar nossos produtos aos usuários cadastrados;</li>
+              <li className="mb-2">Para que possamos enviar ofertas de cursos para os cadastrados.</li>
             </ul>
             <p><strong>2. Dados sensíveis</strong></p>
-            <p class="mb-20">Não serão coletados dados sensíveis de nossos usuários, assim entendidos aqueles definidos nos arts. 11 e seguintes da Lei de Proteção de Dados Pessoais. Assim, não haverá coleta de dados sobre origem racial ou étnica, convicção religiosa, opinião política, filiação a sindicato ou a organização de caráter religioso, filosófico ou político, dado referente à saúde ou à vida sexual, dado genético ou biométrico, quando vinculado a uma pessoa natural.</p>
+            <p className="mb-4">Não serão coletados dados sensíveis de nossos usuários, assim entendidos aqueles definidos nos arts. 11 e seguintes da Lei de Proteção de Dados Pessoais. Assim, não haverá coleta de dados sobre origem racial ou étnica, convicção religiosa, opinião política, filiação a sindicato ou a organização de caráter religioso, filosófico ou político, dado referente à saúde ou à vida sexual, dado genético ou biométrico, quando vinculado a uma pessoa natural.</p>
             <p><strong>3. Dados de crianças e adolescentes</strong></p>
-            <p class="mb-20">Nós coletamos os seguintes dados de crianças e adolescentes:</p>
-            <ul class="list">
-              <li class="mb-2"><i class="far fa-circle"></i>Nome completo</li>
-              <li class="mb-2"><i class="far fa-circle"></i>CPF</li>
-              <li class="mb-2"><i class="far fa-circle"></i>Telefone</li>
-              <li class="mb-2"><i class="far fa-circle"></i>E-mail</li>
-              <li class="mb-2"><i class="far fa-circle"></i>Nome do Pai</li>
-              <li class="mb-2"><i class="far fa-circle"></i>Nome da Mãe</li>
+            <p className="mb-4">Nós coletamos os seguintes dados de crianças e adolescentes:</p>
+            <ul className="list-disc pl-6 my-3">
+              <li className="mb-2">Nome completo</li>
+              <li className="mb-2">CPF</li>
+              <li className="mb-2">Telefone</li>
+              <li className="mb-2">E-mail</li>
+              <li className="mb-2">Nome do Pai</li>
+              <li className="mb-2">Nome da Mãe</li>
             </ul>
             <p>A coleta de dados de crianças e adolescentes acontece nos seguintes momentos:</p>
             <p>No momento que o usuário faz seu cadastro em cursos.</p>
@@ -115,14 +102,14 @@ export default function Cookie() {
             <p>Uma base legal para o tratamento de dados pessoais nada mais é que um fundamento jurídico, previsto em lei, que justifica. Assim, cada operação de tratamento de dados pessoais precisa ter uma base legal a ela correspondente.</p>
             <p>1. Dados pessoais não sensíveis</p>
             <p>Nós tratamos os dados pessoais não sensíveis de nossos usuários nas seguintes hipóteses:</p>
-            <ul class="list">
-              <li class="mb-2"><i class="far fa-circle"></i>mediante o consentimento do titular dos dados pessoais;</li>
-              <li class="mb-2"><i class="far fa-circle"></i>para o cumprimento de obrigação legal ou regulatória pelo controlador;</li>
-              <li class="mb-2"><i class="far fa-circle"></i>para o exercício regular de direitos em processo judicial, administrativo ou arbitral;
+            <ul className="list-disc pl-6 my-3">
+              <li className="mb-2">mediante o consentimento do titular dos dados pessoais;</li>
+              <li className="mb-2">para o cumprimento de obrigação legal ou regulatória pelo controlador;</li>
+              <li className="mb-2">para o exercício regular de direitos em processo judicial, administrativo ou arbitral;
               </li>
-              <li class="mb-2"><i class="far fa-circle"></i>quando necessário para atender aos interesses legítimos do controlador ou de terceiro;
+              <li className="mb-2">quando necessário para atender aos interesses legítimos do controlador ou de terceiro;
               </li>
-              <li class="mb-2"><i class="far fa-circle"></i>para a proteção do crédito.</li>
+              <li className="mb-2">para a proteção do crédito.</li>
             </ul>
             <p>2. Dados de crianças e adolescentes</p>
             <p>O tratamento de dados de crianças e adolescentes é feito com base no consentimento de pelo menos um de seus pais ou responsáveis.</p>
@@ -137,21 +124,21 @@ export default function Cookie() {
             <p>Para determinadas operações de tratamento de dados pessoais, nos baseamos exclusivamente em nosso interesse legítimo. Para saber mais sobre em quais casos, especificamente, nos valemos desta base legal, ou para obter mais informações sobre os testes que fazemos para termos certeza de que podemos utilizá-la, entre em contato com nosso Encarregado de Proteção de Dados Pessoais por algum dos canais informados nesta Política de Privacidade, na seção “Como entrar em contato conosco”.</p>
             <p>6. Direitos do usuário</p>
             <p>O usuário do site possui os seguintes direitos, conferidos pela Lei de Proteção de Dados Pessoais:</p>
-            <ul class="list">
-              <li class="mb-2"><i class="far fa-circle"></i>confirmação da existência de tratamento;</li>
-              <li class="mb-2"><i class="far fa-circle"></i>acesso aos dados;</li>
-              <li class="mb-2"><i class="far fa-circle"></i>correção de dados incompletos, inexatos ou desatualizados;</li>
-              <li class="mb-2"><i class="far fa-circle"></i>anonimização, bloqueio ou eliminação de dados desnecessários, excessivos ou tratados em<br />
+            <ul className="list-disc pl-6 my-3">
+              <li className="mb-2">confirmação da existência de tratamento;</li>
+              <li className="mb-2">acesso aos dados;</li>
+              <li className="mb-2">correção de dados incompletos, inexatos ou desatualizados;</li>
+              <li className="mb-2">anonimização, bloqueio ou eliminação de dados desnecessários, excessivos ou tratados em<br />
                 desconformidade com o disposto na lei;</li>
-              <li class="mb-2"><i class="far fa-circle"></i>portabilidade dos dados a outro fornecedor de serviço ou produto, mediante requisição<br />
+              <li className="mb-2">portabilidade dos dados a outro fornecedor de serviço ou produto, mediante requisição<br />
                 expressa, de acordo com a regulamentação da autoridade nacional, observados os segredos comercial e industrial;</li>
-              <li class="mb-2"><i class="far fa-circle"></i>eliminação dos dados pessoais tratados com o consentimento do titular, exceto nos casos<br />
+              <li className="mb-2">eliminação dos dados pessoais tratados com o consentimento do titular, exceto nos casos<br />
                 previstos em lei;</li>
-              <li class="mb-2"><i class="far fa-circle"></i>informação das entidades públicas e privadas com as quais o controlador realizou uso<br />
+              <li className="mb-2">informação das entidades públicas e privadas com as quais o controlador realizou uso<br />
                 compartilhado de dados;</li>
-              <li class="mb-2"><i class="far fa-circle"></i>informação sobre a possibilidade de não fornecer consentimento e sobre as consequências<br />
+              <li className="mb-2">informação sobre a possibilidade de não fornecer consentimento e sobre as consequências<br />
                 da negativa;</li>
-              <li class="mb-2"><i class="far fa-circle"></i>revogação do consentimento.</li>
+              <li className="mb-2">revogação do consentimento.</li>
             </ul>
             <p>É importante destacar que, nos termos da LGPD, não existe um direito de eliminação de dados tratados com fundamento em bases legais distintas do consentimento, a menos que os dados seja desnecessários, excessivos ou tratados em desconformidade com o previsto na lei.</p>
             <p>7. Como o titular pode exercer seus direitos</p>
@@ -189,8 +176,8 @@ export default function Cookie() {
         location="bottom"
         buttonText="Aceitar"
         cookieName="userConsent"
-        style={{ background: "#2B373B" }}
-        buttonStyle={{ color: "#fff", fontSize: "13px", backgroundColor: '#00935f' }}
+        style={{ background: "#1d232a", borderTop: "1px solid rgba(255,255,255,.08)", alignItems: "center", fontSize: "14px" }}
+        buttonStyle={{ color: "#fff", fontSize: "14px", fontWeight: 700, backgroundColor: '#00935f', borderRadius: '9999px', padding: '8px 24px' }}
         expires={1}
       >
         Usamos cookies para personalizar conteúdos e melhorar a sua experiência. Ao navegar neste site, você concorda com a nossa {" "}

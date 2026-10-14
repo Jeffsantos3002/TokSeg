@@ -1,31 +1,45 @@
 import aplicativo from '../assets/section6/aplicativo.jpg'
 import automacao from '../assets/section6/automacao.jpeg'
-import monitoramento from '../assets/section6/monitoramento.png'
+import monitoramento from '../assets/section6/monitoramento.webp'
 
+const cards = [
+  {
+    titulo: 'Monitoramento 24 horas',
+    imagem: monitoramento,
+    alt: 'Central de monitoramento',
+    subtitulo: 'Monitoramento do condomínio em tempo real.',
+    texto: 'Regras do sistema compatíveis com o perfil de cada condomínio.',
+  },
+  {
+    titulo: 'Automação de ambientes',
+    imagem: automacao,
+    alt: 'Automação residencial',
+    subtitulo: 'Poder e controle na palma da mão.',
+    texto: 'Temos soluções de automação para deixar seu dia a dia mais prático e eficiente, desde o controle de acesso e iluminação inteligente até a climatização e segurança residencial.',
+  },
+  {
+    titulo: 'Convite Facial Temporário',
+    imagem: aplicativo,
+    alt: 'Convite facial pelo celular',
+    subtitulo: 'Liberdade para convidar via facial.',
+    texto: 'Envie um convite facial via WhatsApp para o seu convidado acessar sua unidade autenticando-se no leitor.',
+  },
+]
 
 export default function Section6 () {
   return(
-    <div className="w-full bg-dark  py-12 flex justify-center px-5">
-      <div className="w-full max-w-[1256px] flex flex-col lg:flex-row items-center lg:items-start justify-between space-y-16 lg:space-y-0 lg:space-x-8">
-        <div className='flex flex-col items-center text-center lg:text-start space-y-8 max-w-[322px] w-full'>
-          <h1 className='text-4xl	font-semibold max-w-60 w-full text-center mt-8 lg:mt-0 '>Monitramento 24 horas</h1>
-          <img className='w-44 h-44 -order-1 lg:-order-none rounded-full' src={monitoramento} alt="monitaramento" title='monitoramento' />
-          <h2 className='text-2xl	font-semibold'>Monitoramento do condominio em tempo real.</h2>
-          <p>Regras do sistema compativel com o perfil de cada condomínio. </p>
-        </div>
-        <div className='flex flex-col items-center text-center lg:text-start space-y-8 max-w-[322px] w-full'>
-          <h1 className='text-4xl	font-semibold mt-8 lg:mt-0 text-center'>Automação de ambientes</h1>
-          <img className='w-44 h-44 rounded-full' src={automacao} alt="monitaramento" title='aplicativo' />
-          <h2 className='text-2xl	font-semibold'>Poder e controle na palma da mão.</h2>
-          <p>Temos soluções de automação para deixar seu dia a dia mais prático e eficiente, desde o controle de acesso e iluminação inteligente até a climatização e segurança residencial.</p>
-        </div>
-        <div className='flex flex-col items-center text-center lg:text-start space-y-8 max-w-[322px] w-full'>
-          <h1 className='text-4xl	font-semibold mt-8 lg:mt-0 text-center'>Convite Facial Temporario</h1>
-          <img className='w-44 h-44  rounded-full' src={aplicativo} alt="monitaramento" title='videoChamada' />
-          <h2 className='text-2xl	font-semibold text-center'>Liberdade para convidar via facial.</h2>
-          <p>Envie um convite facial via whatsapp para o seu convidado para o mesmo acessar sua unidade autenticando-se no leitor.</p>
-        </div>
+    <section className="w-full bg-dark py-20 lg:py-24 flex justify-center px-4">
+      <div className="w-full max-w-[1256px] grid gap-6 md:grid-cols-3">
+        {cards.map((c) => (
+          <article key={c.titulo}
+            className="flex flex-col items-center text-center gap-5 rounded-2xl bg-dark2 border border-white/5 p-8 transition duration-300 hover:-translate-y-1 hover:border-verdeTokSeg/60">
+            <img className="w-40 h-40 rounded-full object-cover ring-4 ring-verdeTokSeg/70" src={c.imagem} alt={c.alt} title={c.titulo} loading="lazy" />
+            <h3 className="text-2xl lg:text-3xl font-bold">{c.titulo}</h3>
+            <p className="text-lg font-semibold text-verdeFosco">{c.subtitulo}</p>
+            <p className="text-white/80 leading-relaxed">{c.texto}</p>
+          </article>
+        ))}
       </div>
-    </div>
+    </section>
   )
 }
